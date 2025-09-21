@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sWN_zj0DCcYl1cXfVQWx" name="Research_Agent">
-    <mxGraphModel dx="1029" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1479" dy="2199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -534,10 +534,54 @@
             <mxPoint x="840" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x7F2MmLYZO_3y2iTphO5-9" value="过滤后的文献与代码仓库" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="4Mxj9uJOLUoWY9-2jE7F-1">
+        <mxCell id="x7F2MmLYZO_3y2iTphO5-9" value="过滤后的文献与代码仓库" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0016" relative="1" as="geometry">
-            <mxPoint x="970" y="640" as="sourcePoint" />
-            <mxPoint x="320" y="640.4300000000001" as="targetPoint" />
+            <mxPoint x="970.28" y="830" as="sourcePoint" />
+            <mxPoint x="189.72736842105272" y="830" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7F2MmLYZO_3y2iTphO5-10" value="文献筛选" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0084" relative="1" as="geometry">
+            <mxPoint x="970" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="630" />
+              <mxPoint x="1000" y="660" />
+            </Array>
+            <mxPoint x="975" y="660" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7F2MmLYZO_3y2iTphO5-11" value="代码库筛选" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0084" relative="1" as="geometry">
+            <mxPoint x="970" y="680" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="680" />
+              <mxPoint x="1000" y="710" />
+            </Array>
+            <mxPoint x="975" y="710" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7F2MmLYZO_3y2iTphO5-12" value="CrossRef交叉验证" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0084" relative="1" as="geometry">
+            <mxPoint x="970" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="730" />
+              <mxPoint x="1000" y="760" />
+            </Array>
+            <mxPoint x="975" y="760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7F2MmLYZO_3y2iTphO5-13" value="本地存储" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0084" relative="1" as="geometry">
+            <mxPoint x="970" y="780" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="780" />
+              <mxPoint x="1000" y="810" />
+            </Array>
+            <mxPoint x="975" y="810" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
